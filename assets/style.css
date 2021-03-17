@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: grey;
+    width: 100%;
+}
+
+.header-content {
+    padding: 1%;
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+.container {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    width: 75vh;
+    padding: 2%;
+    border: 5px solid black;
+}
+
+.btn-flex {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#startQuiz {
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    padding: 10px 24px;
+}
