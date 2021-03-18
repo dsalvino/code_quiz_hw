@@ -1,3 +1,40 @@
+// create a var for answer button, timer, highscore  
+var startBtn = document.getElementById("startQuiz");
+var questionEl = document.getElementById("quizQuestions");
+
+
+startBtn.addEventListener("click", startGame);
+
+function startGame () { //this starts the quiz
+    alert("I've been clicked"); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var questions = [
     {
         question: "what does HTML stand for?",
