@@ -9,6 +9,11 @@ function startGame () { //this starts the quiz
     alert("I've been clicked"); 
 }
 
+function cycleQuestions () {
+    //for loop that generates buttons that uses data from questions variable
+    
+}
+
 
 
 
